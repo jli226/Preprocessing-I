@@ -139,6 +139,62 @@ body {
   height: 100%;
 }
 
-html {
-  background-color: #c41616;
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 50px;
+  border-bottom: solid;
+}
+.top-content-pikachu {
+  font-size: 30px;
+}
+
+.Lets-team-up-btn {
+  display: block;
+  background-color: #ffbf27;
+  margin: 10px 30px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .Lets-team-up-btn {
+    width: 90%;
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
+.main-content {
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    flex-direction: column;
+  }
+}
+
+.main-content section {
+  margin: 20px 5%;
+  width: 45%;
+}
+
+@media (max-width: 500px) {
+  .main-content section {
+    width: 90%;
+  }
 }
