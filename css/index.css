@@ -174,7 +174,7 @@ h2 {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
-  .Lets-team-up-btn {
+  .Lets-team-up-btn .Lets-team-up-btn {
     width: 90%;
     height: 50px;
     font-size: 25px;
@@ -184,7 +184,7 @@ h2 {
   display: flex;
 }
 @media (max-width: 500px) {
-  .main-content {
+  .main-content .main-content {
     flex-direction: column;
   }
 }
@@ -193,7 +193,7 @@ h2 {
   width: 45%;
 }
 @media (max-width: 500px) {
-  .main-content section {
+  .main-content section .main-content section {
     width: 90%;
   }
 }
@@ -210,4 +210,9 @@ th {
 }
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+.top-content-pikachu,
+.Lets-team-up-btn,
+.picture {
+  background-color: lightgray;
 }
